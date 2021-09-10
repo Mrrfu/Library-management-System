@@ -3,9 +3,9 @@ import datetime
 
 from PyQt5.QtWidgets import QMessageBox
 
-conn = pymssql.connect(host='localhost', server='LAPTOP-M6B6KHM8\SQLEXPRESS', port='49268', user='sa',
-                       password='1033190322',
-                       database='BMS')  # 连接数据库 ，port为端口号
+conn = pymssql.connect(host='localhost', server='---', port='--', user='sa',
+                       password='---',
+                       database='---')  # 连接数据库 ，port为端口号,注意，---表示连接个人电脑的SQLSERVER数据库
 cur = conn.cursor()
 
 
