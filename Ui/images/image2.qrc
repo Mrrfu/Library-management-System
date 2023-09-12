@@ -1,7 +1,0 @@
-<RCC>
-  <qresource prefix="test2">
-    <file>main.jpg</file>
-    <file>Tese.jpg</file>
-    <file>Login2.jpg</file>
-  </qresource>
-</RCC>
