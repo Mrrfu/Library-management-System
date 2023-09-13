@@ -13,6 +13,7 @@ from PyQt5.QtWidgets import QMainWindow, QApplication, QMessageBox
 from ui_py import Login_rc
 from Main import Main_ui
 from Admini_Login import Ad_Login,AdL
+# 导入查询用户和密码的函数
 from SQL_SELECT import db_check_username, db_check_password
 
 app = QApplication(sys.argv)
