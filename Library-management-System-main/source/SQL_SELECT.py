@@ -294,7 +294,7 @@ def UpdateFine(SNO, BNO, ID, fine):  # 更新对应图书的罚款信息
         return True
 
 
-def GetPassword(SNO):
+def GetPassword(SNO):   # 获取密码
     sql = "select Password from Student where SNO = '%s'" % SNO
     OldPassword = None
     p = True
@@ -324,7 +324,7 @@ def UpdatePassword(SNO, newPassword):  # 更新密码
         return True
 
 
-def Renewthebook(SNO, BNO, result):
+def Renewthebook(SNO, BNO, result):   # 续借图书
     ID = None
     k = 0
     for i in range(len(result)):
